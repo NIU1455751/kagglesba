@@ -46,5 +46,5 @@ A tree-based ensemble model (XGBoost) will outperform a linear model (Logistic R
 ## Installation and Usage
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/loan-approval-analysis.git
+   git clone https://github.com/NIU1455751/kagglesba.git
    cd loan-approval-analysis

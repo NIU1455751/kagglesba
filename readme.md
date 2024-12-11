@@ -45,12 +45,11 @@ A tree-based ensemble model (XGBoost) will outperform a linear model (Logistic R
 
 ## Installation and Usage
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/NIU1455751/kagglesba.git
-   cd loan-approval-analysis
-   ```
+ ```bash
+ git clone https://github.com/NIU1455751/kagglesba.git
+ ```
    
-### Set Up a Virtual Environment (Recommended)
+2. **Set Up a Virtual Environment (Recommended)**
 Ensure you have Python 3.7+ installed.
 
   ```bash
@@ -58,16 +57,16 @@ Ensure you have Python 3.7+ installed.
   source venv/bin/activate # On Windows: venv\Scripts\activate
   ```
 
-### Install Dependencies
+3. **Install Dependencies** 
   ```bash
   pip install -r requirements.txt
   ```
-### Run the Jupyter Notebook
+4.  **Run the Jupyter Notebook**
 Start Jupyter Notebook by running:
   ```bash
   jupyter notebook Kaggle.ipynb
   ```
-### Results and Outputs
+## Results and Outputs
 The notebook provides:
 - **EDA Insights:** Plots and summaries that explore trends in loan outcomes, geography, and industries.
 - **Model Results:** Classification reports for both Logistic Regression and XGBoost models, highlighting accuracy, precision, recall, and F1-scores.

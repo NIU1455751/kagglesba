@@ -49,7 +49,7 @@ A tree-based ensemble model (XGBoost) will outperform a linear model (Logistic R
  git clone https://github.com/NIU1455751/kagglesba.git
  ```
    
-2. **Set Up a Virtual Environment (Recommended)**
+2. **Set Up a Virtual Environment (OPTIONAL)**
 Ensure you have Python 3.7+ installed.
 
   ```bash
@@ -59,6 +59,7 @@ Ensure you have Python 3.7+ installed.
 
 3. **Install Dependencies** 
   ```bash
+  cd kagglesba/
   pip install -r requirements.txt
   ```
 4.  **Run the Jupyter Notebook**

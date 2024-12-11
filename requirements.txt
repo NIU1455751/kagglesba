@@ -234,7 +234,6 @@ lazr.restfulclient==0.14.4
 lazr.uri==1.0.6
 lazy_loader==0.4
 libclang==18.1.1
-libcudf-cu12==24.10.1
 librosa==0.10.2.post1
 lightgbm==4.5.0
 linkify-it-py==2.0.3
@@ -365,8 +364,6 @@ pygit2==1.16.0
 Pygments==2.18.0
 PyGObject==3.42.1
 PyJWT==2.10.1
-pylibcudf-cu12==24.10.1
-pylibcugraph-cu12==24.10.0
 pylibraft-cu12==24.10.0
 pymc==5.18.2
 pymystem3==0.2.0

@@ -58,6 +58,7 @@ cons==0.4.6
 contourpy==1.3.1
 cryptography==43.0.3
 cuda-python==12.2.1
+cudf-cu12==24.10.1
 cufflinks==0.17.3
 cupy-cuda12x==12.2.0
 cvxopt==1.3.2
@@ -88,7 +89,7 @@ ecos==2.0.14
 editdistance==0.8.1
 eerepr==0.0.4
 einops==0.8.0
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
+en-core-web-sm==3.7.1
 entrypoints==0.4
 et_xmlfile==2.0.0
 etils==1.11.0
@@ -149,7 +150,7 @@ google-cloud-pubsub==2.27.1
 google-cloud-resource-manager==1.13.1
 google-cloud-storage==2.8.0
 google-cloud-translate==3.17.0
-google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
+google-colab==1.0.0
 google-crc32c==1.6.0
 google-generativeai==0.8.3
 google-pasta==0.2.0
@@ -223,9 +224,9 @@ jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 jupyter-client==6.1.12
 jupyter-console==6.1.0
+jupyter_core==5.7.2
 jupyter-leaflet==0.19.2
 jupyter-server==1.24.0
-jupyter_core==5.7.2
 jupyterlab_pygments==0.3.0
 jupyterlab_widgets==3.0.13
 kaggle==1.6.17
@@ -244,7 +245,7 @@ lazr.restfulclient==0.14.4
 lazr.uri==1.0.6
 lazy_loader==0.4
 libclang==18.1.1
-libcudf-cu12 @ https://pypi.nvidia.com/libcudf-cu12/libcudf_cu12-24.10.1-py3-none-manylinux_2_28_x86_64.whl
+libcudf-cu12==24.10.1
 librosa==0.10.2.post1
 lightgbm==4.5.0
 linkify-it-py==2.0.3
@@ -305,7 +306,7 @@ nvidia-cusparse-cu12==12.5.4.2
 nvidia-nccl-cu12==2.23.4
 nvidia-nvjitlink-cu12==12.6.85
 nvtx==0.2.10
-nx-cugraph-cu12 @ https://pypi.nvidia.com/nx-cugraph-cu12/nx_cugraph_cu12-24.10.0-py3-none-any.whl
+nx-cugraph-cu12==24.10.0
 oauth2client==4.1.3
 oauthlib==3.2.2
 openai==1.54.5
@@ -341,6 +342,7 @@ peft==0.13.2
 pexpect==4.9.0
 pickleshare==0.7.5
 pillow==11.0.0
+pip==24.1.2
 platformdirs==4.3.6
 plotly==5.24.1
 plotnine==0.14.3
@@ -384,7 +386,7 @@ pygit2==1.16.0
 Pygments==2.18.0
 PyGObject==3.42.1
 PyJWT==2.10.1
-pylibcudf-cu12 @ https://pypi.nvidia.com/pylibcudf-cu12/pylibcudf_cu12-24.10.1-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+pylibcudf-cu12==24.10.1
 pylibcugraph-cu12==24.10.0
 pylibraft-cu12==24.10.0
 pymc==5.18.2
@@ -438,6 +440,7 @@ sentence-transformers==3.2.1
 sentencepiece==0.2.0
 sentry-sdk==2.19.0
 setproctitle==1.3.4
+setuptools==75.1.0
 shap==0.46.0
 shapely==2.0.6
 shellingham==1.5.4
@@ -490,8 +493,8 @@ termcolor==2.5.0
 terminado==0.18.1
 text-unidecode==1.3
 textblob==0.17.1
-tf-slim==1.1.0
 tf_keras==2.17.0
+tf-slim==1.1.0
 thinc==8.2.5
 threadpoolctl==3.5.0
 tifffile==2024.9.20
@@ -501,10 +504,10 @@ tokenizers==0.20.3
 toml==0.10.2
 tomli==2.2.1
 toolz==0.12.1
-torch @ https://download.pytorch.org/whl/cu121_full/torch-2.5.1%2Bcu121-cp310-cp310-linux_x86_64.whl
-torchaudio @ https://download.pytorch.org/whl/cu121/torchaudio-2.5.1%2Bcu121-cp310-cp310-linux_x86_64.whl
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
 torchsummary==1.5.1
-torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.20.1%2Bcu121-cp310-cp310-linux_x86_64.whl
+torchvision==0.20.1+cu121
 tornado==6.3.3
 tqdm==4.66.6
 traitlets==5.7.1
@@ -533,6 +536,7 @@ webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 Werkzeug==3.1.3
+wheel==0.45.1
 widgetsnbextension==3.6.10
 wordcloud==1.9.4
 wrapt==1.17.0
